@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> P4 GYM </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            /* CSS reset */
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+        }
+
+        .left {
+            top: 20px;
+            position: absolute;
+            left: 8px;
+            top: 10px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+        }
+        .right  {
+            top: 20px;
+            position: absolute;
+            right: 40px;
+            top: 10px;
+            display: inline-block;
+            /* border: 2px solid greenyellow; */
+
+
+        }
+        .mid {
+
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            /* border: 2px solid rgb(55, 26, 219); */
+
+
+        }
+
+        .navbar {
+            color: white;
+            display: inline-block;
+        }
+
+        .navbar li {
+            
+            display: inline-block;
+        }
+
+        .navbar li a {
+            font-size: 20px;
+            padding: 24px;
+            text-decoration: none;
+            color: rgb(233, 50, 50);
+        } 
+
+        .navbar li a:hover, .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(209, 190, 21);
+        } 
+
+        .left img {
+            width: 125px;
+            border-radius: 10px;
+        }
+        .left div {
+            line-height: 25px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            width: 125px;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px 9px;
+            background-color: rgb(107, 221, 76);
+            color:white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+           /* border: 2px solid white; */
+           margin: 5px 690px;
+           padding: 75px;
+           width: 33%;
+           border-radius: 28px;
+           
+        }
+
+        .container h1 {
+            color: rgb(245, 116, 41);
+            margin: 11px;
+        }
+
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 394px;
+
+
+            margin: 11px;
+            padding: 4px;
+            font-size: 20px;
+            border-radius: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+            border: 2px solid black;
+        }
+
+        .container button {
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://t3.ftcdn.net/jpg/02/85/53/08/240_F_285530857_baSIsMiQVLaBep5tS7imAf0CUXDekxFC.jpg" alt="">
+            <div>
+                P4 GYM
+            </div>
+            
+
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class = "active"> Home</a> </li>
+                <li> <a href="google.com"> About us</a></li>
+                <li> <a href="#"> Fitness calculator</a></li>
+                <li> <a href="#"> contact us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+           <button class="btn">Call us </button>
+  
+           <button class="btn">Email us </button>
+
+        </div>
+
+    </header>
+
+
+    <div class="container">
+        <h1>join the best gym of the world now!</h1>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text"  name = "" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text"  name = "" placeholder="Enter your age">
+            </div>
+
+            <div class="form-group">
+                <input type="text"  name = "" placeholder="Enter your DOB">
+            </div>
+
+            <div class="form-group">
+                <input type="text"  name = "" placeholder="Enter your address">
+            </div>
+
+
+            <button class = "btn">submit</button>
+        </form>
+    </div>
+    
+</body>
+</html> 
